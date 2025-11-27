@@ -39,7 +39,8 @@ datasets/
 
 # Jupyter
 .ipynb_checkpoints/
-*.ipynb
+# Allow train.ipynb in repo (it's needed for Colab)
+!train.ipynb
 
 # IDE
 .vscode/
